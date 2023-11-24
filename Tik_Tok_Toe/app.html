@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./app.css">
+    <title>Game</title>
+</head>
+<body>
+    <div class="main">
+    <div class="header">
+        <h1>TIK-TOK-TOE</h1>
+    </div>
+    <div class="dameview">
+        <div class="row">
+            <div class="cell" onclick="mainfunc(0,0)"></div>
+            <div class="cell" onclick="mainfunc(0,1)" ></div>
+            <div class="cell" onclick="mainfunc(0,2)" ></div>
+        </div>
+        <div class="row">
+            <div class="cell" onclick="mainfunc(1,0)" ></div>
+            <div class="cell" onclick="mainfunc(1,1)" ></div>
+            <div class="cell" onclick="mainfunc(1,2)" ></div>
+        </div>
+        <div class="row">
+            <div class="cell" onclick="mainfunc(2,0)"></div>
+            <div class="cell" onclick="mainfunc(2,1)"></div>
+            <div class="cell" onclick="mainfunc(2,2)"></div>
+        </div>
+    </div>
+    <div class="btn"><button onclick="reset()">Reset</button></div>
+</div>
+</body>
+<script src="./app.js"></script>
+</html>
