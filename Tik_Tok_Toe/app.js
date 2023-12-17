@@ -75,14 +75,4 @@ function checkDraw() {
 
 const reset = () => {
   location.reload();
-  // player = "X";
-  // gamebord = [
-  //   ["", "", ""],
-  //   ["", "", ""],
-  //   ["", "", ""],
-  // ];
-  // let cells = document.getElementsByClassName("cell");
-  // for (cell of cells) {
-  //   cell.innerHTML = "";
-  // }
 };
